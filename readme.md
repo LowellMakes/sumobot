@@ -20,7 +20,7 @@ http://robogames.net/rules/all-sumo.php
 
 In aaddition to the rules at the above link the following rules apply:
 
-### Cost
+###### Cost
 
 In addition to the kit provided, participants may add up to, but no more than, $50 worth of parts and materials to thier robots.  Judges will have final say as to the value of added parts.  The intention is to keep the competition fair for all.
 
