@@ -15,6 +15,7 @@ Servo rightWheel;  // create servo object to control a servo
 Servo leftWheel;  // create servo object to control a servo
 // twelve servo objects can be created on most boards
 
+
 void setup()
 {
 	Serial.begin(115200); // Open serial monitor at 115200 baud to see ping results.
@@ -31,17 +32,17 @@ void loop()
 	Serial.println("cm");
 
 
-	// If we see the opponent attack!
+	// If don't see opponent, spin to seek
 	if(d > 39 || d == 0){
 		leftWheel.write(180);
 		rightWheel.write(180);
 	}
-	// Otherwise spin
+	// Otherwise attack!
 	else {
 		leftWheel.write(180);
 		rightWheel.write(0);
 	}
 
-	delay(55);                     // Wait 50ms between pings (about 20 pings/sec). 29ms should be the shortest delay between pings.
+	delay(50);                     // Wait 50ms between pings (about 20 pings/sec). 29ms should be the shortest delay between pings.
 
 }
