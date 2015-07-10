@@ -116,8 +116,6 @@ void loop()
 		rightWheel.write(180);
 	}
 
-	//delay(50);                     // Wait 50ms between pings (about 20 pings/sec). 29ms should be the shortest delay between pings.
-
 }
 
 
