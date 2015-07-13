@@ -23,7 +23,7 @@
 #define MAX_DISTANCE 200     // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
 #define FRONT_EDGE_SENSOR 2  // Pin connected to the front edge IR sensor
 #define REAR_EDGE_SENSOR 3   // Pin connected to the rear edge IR sensor
-#define LIGHT_COLOR_VALUE 1000 // This is a value returned from the edge sensors when they see a lighter color, may need tweaking
+#define LIGHT_COLOR_VALUE 2900 // This is a value returned from the edge sensors when they see a lighter color, may need tweaking
 
 /********************************************************
 * Class object instances - These will help us control the
@@ -115,6 +115,8 @@ void loop()
 		leftWheel.write(0);
 		rightWheel.write(180);
 	}
+	
+	delay(50);
 }
 
 
