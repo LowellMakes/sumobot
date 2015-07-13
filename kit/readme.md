@@ -5,16 +5,16 @@ Lowell Makes Sumo Bot Kit
 
    The bill of materials is in Sumobot_Kit_BOM.xlsx in this directory
 
-* Arduino Uno<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/ArduinoUno.jpg" width="300px"> X 1
-* Sensor Shield<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Sensor_Shield.jpg" width="300px"> X 1
-* Ultrasonic Range Finder<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/HC-SR04.jpg" width="300px"> x 1
-* Battery Box<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/battery_box.jpg" width="300px"> x 1
-* Jumper Wires<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/jumper_wires.jpg" width="300px"> x 1
-* USB Cable<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/usb_cable.jpg" width="300px"> x 1
-* IR Line Sensor<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/ir_line_sensor.jpg" width="300px"> x 2
-* Servo Wheel<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/servo_wheel.jpg" width="300px"> x 2
-* Modified Servo<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/servo.jpg" width="300px"> x 2
-* O-rings<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/o-ring.jpg" width="300px"> x 4
+* Arduino Uno<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/ArduinoUno.jpg" width="150px"> X 1
+* Sensor Shield<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Sensor_Shield.jpg" width="150px"> X 1
+* Ultrasonic Range Finder<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/HC-SR04.jpg" width="150px"> x 1
+* Battery Box<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/battery_box.jpg" width="150px"> x 1
+* Jumper Wires<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/jumper_wires.jpg" width="150px"> x 1
+* USB Cable<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/usb_cable.jpg" width="150px"> x 1
+* IR Line Sensor<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/ir_line_sensor.jpg" width="150px"> x 2
+* Servo Wheel<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/servo_wheel.jpg" width="150px"> x 2
+* Modified Servo<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/servo.jpg" width="150px"> x 2
+* O-rings<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/o-ring.jpg" width="150px"> x 4
 
 
 
