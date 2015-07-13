@@ -75,7 +75,7 @@ void loop()
 	Serial.println(frontEdgeValue);
 	// Less than 1000 means we see white-ish
 	// This number can be tweaked if the IR sensor is closer to the ground
-	if(frontEdgeValue < LIGHT_COLOR_VALUE)
+	if(frontEdgeValue > LIGHT_COLOR_VALUE)
 	{
 		// Better back up!!
 		leftWheel.write(180);
@@ -86,7 +86,7 @@ void loop()
 	int backEdgeValue = readQD(REAR_EDGE_SENSOR);
 	Serial.print("Back Edge: ");
 	Serial.println(backEdgeValue);
-	if(backEdgeValue < 1000)
+	if(backEdgeValue > LIGHT_COLOR_VALUE)
 	{
 		// Better go forward!!
 		leftWheel.write(0);
@@ -115,7 +115,6 @@ void loop()
 		leftWheel.write(0);
 		rightWheel.write(180);
 	}
-
 }
 
 
