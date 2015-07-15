@@ -42,8 +42,7 @@ Lowell Makes Sumo Bot Kit
 ## Programming
 ## Programming
 
-In order to program your robot you will need the Arduino software.  You can find instructions on how to download and install the Ard\
-uino stoftware here: <a href="https://www.arduino.cc/en/Guide/HomePage"> Getting Started With Arduino </a>
+In order to program your robot you will need the Arduino software.  You can find instructions on how to download and install the Arduino stoftware here: <a href="https://www.arduino.cc/en/Guide/HomePage"> Getting Started With Arduino </a>
 
 Once you have the software installed, you will need to make sure you have the NewPing library that will help you control the Ultrasonic Range Finder.
 
