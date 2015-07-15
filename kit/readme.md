@@ -39,8 +39,7 @@ Lowell Makes Sumo Bot Kit
 * Step 17<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step17.jpg" width="300px">
 
 
-## Programming
-## Programming
+## Programming Your Sumobot
 
 In order to program your robot you will need the Arduino software.  You can find instructions on how to download and install the Arduino stoftware here: <a href="https://www.arduino.cc/en/Guide/HomePage"> Getting Started With Arduino </a>
 
