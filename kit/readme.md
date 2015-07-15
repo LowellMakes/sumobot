@@ -34,14 +34,15 @@ Lowell Makes Sumo Bot Kit
 * Step 12<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step12.jpg" width="300px">
 * Step 13<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step13.jpg" width="300px">
 * Step 14<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step14.jpg" width="300px">
-* Step 15<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step15.jpg" width="300px">
-* Step 16<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step16.jpg" width="300px">
-* Step 17<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step17.jpg" width="300px">
+* Step 15<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step17.jpg" width="300px">
+* Step 16<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step15.jpg" width="300px">
+* Step 17<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step16.jpg" width="300px">
+* Step 18 Plug the ping sensor into the connector labeled URF 01.  Be sure to connect the pin labeled VCC on your sensor to the pin labeled '+' on the board.
 
 
 ## Programming Your Sumobot
 
-In order to program your robot you will need the Arduino software.  You can find instructions on how to download and install the Arduino stoftware here: <a href="https://www.arduino.cc/en/Guide/HomePage"> Getting Started With Arduino </a>
+In order to program your robot you will need the Arduino software.  You can find instructions on how to download and install the Arduino software here: <a href="https://www.arduino.cc/en/Guide/HomePage"> Getting Started With Arduino </a>
 
 Once you have the software installed, you will need to make sure you have the NewPing library that will help you control the Ultrasonic Range Finder.
 
@@ -70,4 +71,4 @@ Select that port and then click Tools > Board and make sure Arduino Uno is selec
 
 Open the SumoBot code.  If you downloaded all the SumoBot files you will find the code in sumobot\code\sumobot\sumobot.ino.  You can also jump to it here: <a href="https://raw.githubusercontent.com/LowellMakes/sumobot/master/code/sumobot/sumobot.ino"> sumobot.ino </a>.  Right click that link and select "Save Link As...".
 
-With your robot plugged into USB and the Sumobot code loaded in the Arduino software click the arrow in the upper left corner (next to the check mark) to "upload" your code.  Once it is programmed, diconnect the USB, reconnect your servo motors and turn on the switch on the battery box.  If all goes well you should be watching your Sumobot drive around in no time.
+With your robot plugged into USB and the Sumobot code loaded in the Arduino software click the arrow in the upper left corner (next to the check mark) to "upload" your code.  Once it is programmed, disconnect the USB, reconnect your servo motors and turn on the switch on the battery box.  If all goes well you should be watching your Sumobot drive around in no time.
