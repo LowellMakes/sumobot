@@ -16,13 +16,14 @@
 /*******************************************************
 * Define statements - Define constants we will use later
 *******************************************************/
-#define TRIGGER_PIN  A0      // Arduino pin tied to trigger pin on the ultrasonic sensor.
-#define ECHO_PIN     A1      // Arduino pin tied to echo pin on the ultrasonic sensor.
-#define LEFT_WHEEL_PIN  A2   // Arduino pin tied to the left servo wheel motor
-#define RIGHT_WHEEL_PIN A3   // Arduino pin tied to the right servo wheel motor
+#define TRIGGER_PIN  A2      // Arduino pin tied to trigger pin on the ultrasonic sensor.
+#define ECHO_PIN     A3      // Arduino pin tied to echo pin on the ultrasonic sensor.
+#define LEFT_WHEEL_PIN  A0   // Arduino pin tied to the left servo wheel motor
+#define RIGHT_WHEEL_PIN A1   // Arduino pin tied to the right servo wheel motor
+#define FLIPPER_PIN A4       // Flipper pin
 #define MAX_DISTANCE 200     // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
-#define FRONT_EDGE_SENSOR 2  // Pin connected to the front edge IR sensor
-#define REAR_EDGE_SENSOR 3   // Pin connected to the rear edge IR sensor
+#define FRONT_EDGE_SENSOR 3  // Pin connected to the front edge IR sensor
+#define REAR_EDGE_SENSOR 2   // Pin connected to the rear edge IR sensor
 #define LIGHT_COLOR_VALUE 2900 // This is a value returned from the edge sensors when they see a lighter color, may need tweaking
 
 /********************************************************
@@ -36,6 +37,7 @@ NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
 // Up to twelve servo objects can be created and controlled
 Servo rightWheel;
 Servo leftWheel;
+Servo flipper;
 
 /********************************************************
 * Setup code runs one time at the very beginning after we
@@ -50,6 +52,14 @@ void setup()
 	// Tell the servo objects which pins the servos are connected to
 	leftWheel.attach(LEFT_WHEEL_PIN);
 	rightWheel.attach(RIGHT_WHEEL_PIN);
+	flipper.attach(FLIPPER_PIN);
+
+	flipper.write(0);
+	
+	leftWheel.write(180);
+	rightWheel.write(0);
+	delay(300);
+	
 }
 
 /********************************************************
@@ -105,15 +115,24 @@ void loop()
 	Serial.print(distInCentimeters);
 	Serial.println("cm");
 
+	// Flip time?
+	if(distInCentimeters <= 5 && distInCentimeters != 0)
+	{
+		leftWheel.write(0);
+		rightWheel.write(180);
+		flipper.write(180);
+	}
 	// If don't see opponent, spin to look around
-	if(distInCentimeters > 39 || distInCentimeters == 0){
+	else if(distInCentimeters > 39 || distInCentimeters == 0){
 		leftWheel.write(180);
 		rightWheel.write(180);
+		flipper.write(0);
 	}
 	// Otherwise attack!
 	else {
 		leftWheel.write(0);
 		rightWheel.write(180);
+		flipper.write(0);
 	}
 	
 	delay(50);
