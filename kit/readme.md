@@ -42,7 +42,8 @@ Lowell Makes Sumo Bot Kit
 * Step 20<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20a.jpg" width="300px">
 <img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20b.jpg" width="300px">
 <img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20c.jpg" width="300px">
-
+<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20d.jpg" width="300px">
+* Step 21 - Repeat step 20 for your front edge sensor, connect sensor to pins labeled A4
 
 
 ## Programming Your Sumobot
