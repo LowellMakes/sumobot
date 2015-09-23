@@ -34,16 +34,15 @@ Lowell Makes Sumo Bot Kit
 * Step 12<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step12.jpg" width="300px">
 * Step 13<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step13.jpg" width="300px">
 * Step 14<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step14.jpg" width="300px">
-* Step 15<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step15.jpg" width="300px">
-* Step 16<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step16.jpg" width="300px">
-* Step 17<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step17.jpg" width="300px">
-* Step 18<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step18.jpg" width="300px">
-* Step 19<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step19.jpg" width="300px">
-* Step 20<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20a.jpg" width="300px">
+* Step 15<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step16.jpg" width="300px">
+* Step 16<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step17.jpg" width="300px">
+* Step 17<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step18.jpg" width="300px">
+* Step 18<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step19.jpg" width="300px">
+* Step 19<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20a.jpg" width="300px">
 <img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20b.jpg" width="300px">
 <img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20c.jpg" width="300px">
 <img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20d.jpg" width="300px">
-* Step 21 - Repeat step 20 for your front edge sensor, connect sensor to pins labeled A4
+* Step 20 - Repeat step 19 for your front edge sensor, connect sensor to pins labeled A4
 
 
 ## Programming Your Sumobot
