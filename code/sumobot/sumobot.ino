@@ -21,9 +21,9 @@
 #define LEFT_WHEEL_PIN  A2   // Arduino pin tied to the left servo wheel motor
 #define RIGHT_WHEEL_PIN A3   // Arduino pin tied to the right servo wheel motor
 #define MAX_DISTANCE 200     // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
-#define FRONT_EDGE_SENSOR 2  // Pin connected to the front edge IR sensor
-#define REAR_EDGE_SENSOR 3   // Pin connected to the rear edge IR sensor
-#define LIGHT_COLOR_VALUE 2900 // This is a value returned from the edge sensors when they see a lighter color, may need tweaking
+#define FRONT_EDGE_SENSOR A4  // Pin connected to the front edge IR sensor
+#define REAR_EDGE_SENSOR  A5   // Pin connected to the rear edge IR sensor
+#define LIGHT_COLOR_VALUE 2000 // This is a value returned from the edge sensors when they see a lighter color, may need tweaking
 
 /********************************************************
 * Class object instances - These will help us control the
