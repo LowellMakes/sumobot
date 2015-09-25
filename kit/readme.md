@@ -42,7 +42,8 @@ Lowell Makes Sumo Bot Kit
 <img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20b.jpg" width="300px">
 <img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20c.jpg" width="300px">
 <img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20d.jpg" width="300px">
-* Step 20 - Repeat step 19 for your front edge sensor, connect sensor to pins labeled A4
+<img src="https://raw.githubusercontent.com/LowellMakes/sumobot/master/kit/images/Step20e.jpg" width="300px">
+* Connect your front edge sensor to A4 and rear edge sensor to A5.  Be sure to plug GND into th G pin, OUT into the S pin and VCC into the V pin.
 
 
 ## Programming Your Sumobot
