@@ -1,5 +1,5 @@
-// Sumobot.ino
-// Super simple Sumobot starter code
+// Waddle_sweep.ino
+// "Waddle" style seeking behavior for your fighting sumobot
 // Written by Brian Bailey
 // brian@bunedoggle.com
 // This code released under a Beerware license

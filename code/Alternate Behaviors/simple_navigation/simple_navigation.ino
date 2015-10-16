@@ -1,5 +1,6 @@
-// Sumobot.ino
-// Super simple Sumobot starter code
+// Simple_navigation.ino
+// Super simple navigation for your sumobot
+// Not a fighting behavior, just collision avoidance
 // Written by Brian Bailey
 // brian@bunedoggle.com
 // This code released under a Beerware license
