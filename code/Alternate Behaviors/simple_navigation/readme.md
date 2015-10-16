@@ -1,0 +1,1 @@
+This is not a sumobot fighting behavior.  This is an obsticle avoidance behavior.  Fun for driving around your kitchen floor.  Enjoy!
