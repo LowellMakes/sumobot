@@ -45,7 +45,7 @@ void setup()
 {
 	// Open serial monitor so we can print out debug information
 	// When connected to a USB port
-	Serial.begin(115200);
+	Serial.begin(9600);
 	
 	// Tell the servo objects which pins the servos are connected to
 	leftWheel.attach(LEFT_WHEEL_PIN);
