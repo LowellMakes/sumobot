@@ -107,6 +107,16 @@ void loop()
 	Serial.print(distInCentimeters);
 	Serial.println("cm");
 
+        // Check for ultrasonic rangefinder bug.  If we get a zero we
+        // could be stuck, run the work around just in case
+        if ( distInCentimeters == 0 ) {
+            delay(100);
+            pinMode(ECHO_PIN, OUTPUT);
+            digitalWrite(ECHO_PIN, LOW);
+            delay(100);
+            pinMode(ECHO_PIN, INPUT);
+        }
+
 	// If don't see opponent, spin to look around
 	if(distInCentimeters > 39 || distInCentimeters == 0){
 		Serial.println("Spinning");
