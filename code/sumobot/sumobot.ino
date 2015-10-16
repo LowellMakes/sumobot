@@ -1,7 +1,7 @@
 // Sumobot.ino
 // Super simple Sumobot starter code
 // Written by Brian Bailey
-// brian@lowellmakes.com
+// brian@bunedoggle.com
 // This code released under a Beerware license
 // free for all to use, modify and share
 
@@ -45,7 +45,7 @@ void setup()
 {
 	// Open serial monitor so we can print out debug information
 	// When connected to a USB port
-	Serial.begin(9600);
+	Serial.begin(115200);
 	
 	// Tell the servo objects which pins the servos are connected to
 	leftWheel.attach(LEFT_WHEEL_PIN);
@@ -106,6 +106,16 @@ void loop()
 	Serial.print("Ping: ");
 	Serial.print(distInCentimeters);
 	Serial.println("cm");
+
+        // Check for ultrasonic rangefinder bug.  If we get a zero we
+        // could be stuck, run the work around just in case.
+        if ( distInCentimeters == 0 ) {
+            delay(100);
+            pinMode(ECHO_PIN, OUTPUT);
+            digitalWrite(ECHO_PIN, LOW);
+            delay(100);
+            pinMode(ECHO_PIN, INPUT);
+        }
 
 	// If don't see opponent, spin to look around
 	if(distInCentimeters > 39 || distInCentimeters == 0){
